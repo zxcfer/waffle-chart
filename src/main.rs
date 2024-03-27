@@ -71,6 +71,10 @@ fn generate_shares_array(asciis: Vec<char>,
     return chart;
 }
 
+// TODO: Select color for each label
+// TODO: Create command line arguments to pass the values
+// TODO: add horizontal and vertical paramenter to allow the user to choose the orientation of the chart
+
 fn main() {
     let labels = vec!["A", "B", "C", "D"];
     let values = vec![30, 20, 20, 40];
